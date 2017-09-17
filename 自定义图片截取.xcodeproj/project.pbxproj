@@ -15,6 +15,8 @@
 		FB409A331F68C7DA004EF6A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB409A311F68C7DA004EF6A9 /* LaunchScreen.storyboard */; };
 		FB409A3E1F68C7DA004EF6A9 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB409A3D1F68C7DA004EF6A9 /* _______Tests.m */; };
 		FB409A491F68C7DA004EF6A9 /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB409A481F68C7DA004EF6A9 /* _______UITests.m */; };
+		FB409A601F69034C004EF6A9 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB409A5F1F69034C004EF6A9 /* test.jpg */; };
+		FBBB0F821F6BF69B0011AAF5 /* CropView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBB0F811F6BF69B0011AAF5 /* CropView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		FB409A441F68C7DA004EF6A9 /* 自定义图片截取UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义图片截取UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB409A481F68C7DA004EF6A9 /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
 		FB409A4A1F68C7DA004EF6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB409A5F1F69034C004EF6A9 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = test.jpg; path = ../test.jpg; sourceTree = "<group>"; };
+		FBBB0F801F6BF69B0011AAF5 /* CropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CropView.h; sourceTree = "<group>"; };
+		FBBB0F811F6BF69B0011AAF5 /* CropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CropView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +106,13 @@
 		FB409A221F68C7DA004EF6A9 /* 自定义图片截取 */ = {
 			isa = PBXGroup;
 			children = (
+				FB409A5F1F69034C004EF6A9 /* test.jpg */,
 				FB409A261F68C7DA004EF6A9 /* AppDelegate.h */,
 				FB409A271F68C7DA004EF6A9 /* AppDelegate.m */,
 				FB409A291F68C7DA004EF6A9 /* ViewController.h */,
 				FB409A2A1F68C7DA004EF6A9 /* ViewController.m */,
-				FB409A2C1F68C7DA004EF6A9 /* Main.storyboard */,
-				FB409A2F1F68C7DA004EF6A9 /* Assets.xcassets */,
-				FB409A311F68C7DA004EF6A9 /* LaunchScreen.storyboard */,
-				FB409A341F68C7DA004EF6A9 /* Info.plist */,
+				FBBB0F801F6BF69B0011AAF5 /* CropView.h */,
+				FBBB0F811F6BF69B0011AAF5 /* CropView.m */,
 				FB409A231F68C7DA004EF6A9 /* Supporting Files */,
 			);
 			path = "自定义图片截取";
@@ -117,6 +121,10 @@
 		FB409A231F68C7DA004EF6A9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FB409A2C1F68C7DA004EF6A9 /* Main.storyboard */,
+				FB409A2F1F68C7DA004EF6A9 /* Assets.xcassets */,
+				FB409A311F68C7DA004EF6A9 /* LaunchScreen.storyboard */,
+				FB409A341F68C7DA004EF6A9 /* Info.plist */,
 				FB409A241F68C7DA004EF6A9 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -207,7 +215,7 @@
 				TargetAttributes = {
 					FB409A1F1F68C7DA004EF6A9 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = M892P9SSGG;
+						DevelopmentTeam = 6H7K3S46CE;
 						ProvisioningStyle = Automatic;
 					};
 					FB409A381F68C7DA004EF6A9 = {
@@ -252,6 +260,7 @@
 				FB409A331F68C7DA004EF6A9 /* LaunchScreen.storyboard in Resources */,
 				FB409A301F68C7DA004EF6A9 /* Assets.xcassets in Resources */,
 				FB409A2E1F68C7DA004EF6A9 /* Main.storyboard in Resources */,
+				FB409A601F69034C004EF6A9 /* test.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +288,7 @@
 				FB409A2B1F68C7DA004EF6A9 /* ViewController.m in Sources */,
 				FB409A281F68C7DA004EF6A9 /* AppDelegate.m in Sources */,
 				FB409A251F68C7DA004EF6A9 /* main.m in Sources */,
+				FBBB0F821F6BF69B0011AAF5 /* CropView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +437,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = M892P9SSGG;
+				DEVELOPMENT_TEAM = 6H7K3S46CE;
 				INFOPLIST_FILE = "自定义图片截取/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tedddddddst.-------";
@@ -439,7 +449,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = M892P9SSGG;
+				DEVELOPMENT_TEAM = 6H7K3S46CE;
 				INFOPLIST_FILE = "自定义图片截取/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tedddddddst.-------";
@@ -516,6 +526,7 @@
 				FB409A4F1F68C7DA004EF6A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB409A501F68C7DA004EF6A9 /* Build configuration list for PBXNativeTarget "自定义图片截取Tests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +535,7 @@
 				FB409A521F68C7DA004EF6A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB409A531F68C7DA004EF6A9 /* Build configuration list for PBXNativeTarget "自定义图片截取UITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +544,7 @@
 				FB409A551F68C7DA004EF6A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

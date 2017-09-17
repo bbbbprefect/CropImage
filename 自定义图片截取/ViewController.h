@@ -7,8 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CropView.h"
+@interface ViewController : UIViewController<UIPickerViewDataSource,UIPickerViewDelegate,UIImagePickerControllerDelegate
+                                             ,UINavigationControllerDelegate>
+{
+    CropView *_cropImageView;
+    
+    UIImageView *_imgView;
+    
+    UIImage *_img;
+}
 
-@interface ViewController : UIViewController
+@property(nonatomic,strong)UIButton *btn;
+
 
 
 @end
