@@ -18,7 +18,6 @@
     UIImage *_img;
 }
 
-@property(nonatomic,strong)UIButton *btn;
 
 
 
