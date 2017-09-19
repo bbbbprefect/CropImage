@@ -22,19 +22,19 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = [UIColor whiteColor];
-    self.btn = [[UIButton alloc]initWithFrame:CGRectMake(100, 100, 100, 50)];
-    [self.btn setTitle:@"点击" forState:UIControlStateNormal];
-    self.btn.backgroundColor = [UIColor redColor];
-    [self.btn addTarget:self action:@selector(doSth) forControlEvents:UIControlEventTouchDown];
+    self.clickBtn = [[UIButton alloc]initWithFrame:CGRectMake(100, 100, 100, 50)];
+    [self.clickBtn setTitle:@"点击" forState:UIControlStateNormal];
+    self.clickBtn.backgroundColor = [UIColor redColor];
+    [self.clickBtn addTarget:self action:@selector(doSth) forControlEvents:UIControlEventTouchDown];
     
     _imgView = [[UIImageView alloc]initWithFrame:CGRectMake(150, 250, 200, 200)];
     
     _img = [[UIImage alloc]init];
     
-    [self.view addSubview:self.btn];
+    [self.view addSubview:self.clickBtn];
     [self.view addSubview:_imgView];
     
-    btn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    self.clickBtn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     
 }
 
@@ -70,6 +70,8 @@
     [_cropImageView setSize:CGSizeMake(200, 200)];
     [self.view addSubview:_cropImageView];
     
+    btn = [[UIButton alloc]init];
+    [btn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
     [btn setFrame:CGRectMake(100, 100, 100, 50)];
     [btn setTitle:@"点击截取" forState:UIControlStateNormal];
     
